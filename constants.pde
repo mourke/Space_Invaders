@@ -1,0 +1,13 @@
+final int MAX_BULLETS = 5; // user can shoot a maximum of 5 bullets
+final int SCREEN_WIDTH = 775;
+final int SCREEN_HEIGHT = 572;
+final int SHIP_SIZE = 48;
+final int SPACING = 50; // spacing between the aliens
+final int ALIEN_SIZE = 48;
+final int BOMB_SIZE = 30;
+final int LOGO_SIZE = 400;
+final int ALIENS_PER_LINE = SCREEN_WIDTH/(ALIEN_SIZE + SPACING);
+final int EXPLOSION_DURATION = 10; // the number of frames the alien will explode for
+final int MAX_NUMBER_OF_BOMBS = 6; // the number of bombs on the screen at a time
+final int MAX_NUMBER_OF_ALIENS = 20;
+final color YELLOW = color(222, 240, 44);

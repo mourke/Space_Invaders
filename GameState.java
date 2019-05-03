@@ -1,0 +1,3 @@
+enum GameState {
+  ONBOARDING, PLAYING, PAUSED, LOST, WON;
+}
